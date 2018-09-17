@@ -1,0 +1,5 @@
+Muy buenas a todos y a todas.
+Con el fin de tener todo bien organizado se han creado varios repositorios, cada uno de ellos dirigido a una asignatura, estos pueden tener una o varias ramas, las cuales sugiero que tengan vuestro nombre si bien colaborais para asi poder comparar el código de todos, corregir errores y aprender.
+En ningún caso se copiará el código de un compañero o esto dejará de funcionar. Un cordial saludo.
+
+PD: La rama master solo deberá contener los enunciados del ejercicio, no código o este será borrado de inmediato.
