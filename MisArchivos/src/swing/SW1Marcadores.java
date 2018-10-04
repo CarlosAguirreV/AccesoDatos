@@ -1,4 +1,4 @@
-package ventanas;
+package swing;
 
 import java.awt.Color;
 import java.awt.GridLayout;
