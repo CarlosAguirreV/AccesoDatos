@@ -1,5 +1,8 @@
-Muy buenas a todos y a todas.
-Con el fin de tener todo bien organizado se han creado varios repositorios, cada uno de ellos dirigido a una asignatura, estos pueden tener una o varias ramas, las cuales sugiero que tengan vuestro nombre si bien colaborais para asi poder comparar el código de todos, corregir errores y aprender.
-En ningún caso se copiará el código de un compañero o esto dejará de funcionar. Un cordial saludo.
+Muy buenas a tod@s.
+Con el fin de tener todo bien organizado se ha creado este repositorio, este puede tener una o varias ramas, las cuales sugiero que tengan vuestro nombre (si colaborais) para asi poder comparar el código de todos, corregir errores y aprender.
+Un par de cosas más:
+ - En ningún caso se copiará el código de un compañero, ni se escribirá en su rama (escribe en la tuya) o esto dejará de funcionar.
+ - La rama master solo deberá contener los enunciados del ejercicio o bien una imagen descriptiva del resultado, no código, de lo contrario será borrado de inmediato. Ante todo respeto por el trabajo de los demás.
+Un cordial saludo.
 
-PD: La rama master solo deberá contener los enunciados del ejercicio, no código o este será borrado de inmediato.
+PD: Si eres nuevo no olvides crear una rama nueva a partir de master y borrar las imágenes (heredadas de esta) de tu rama, sé que es un poco engorroso, pero es una forma de poder compartir el código.
