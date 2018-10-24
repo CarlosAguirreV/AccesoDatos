@@ -32,7 +32,7 @@ public class Actividad1_5 {
      * @throws IOException 
      */
     public Actividad1_5() throws FileNotFoundException, IOException {
-        this.leerArchivoBinario();
+//        this.leerArchivoBinario();
         this.escribirArchivoXml();
     }
     
