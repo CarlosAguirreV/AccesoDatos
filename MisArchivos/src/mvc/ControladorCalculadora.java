@@ -44,7 +44,7 @@ public class ControladorCalculadora {
                 resultado = modelo.producto();
                 break;
             case '/':
-                resultado = modelo.producto();
+                resultado = modelo.division();
                 break;
         }
         

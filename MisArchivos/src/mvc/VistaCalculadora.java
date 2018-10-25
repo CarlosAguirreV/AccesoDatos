@@ -18,6 +18,8 @@ public class VistaCalculadora extends javax.swing.JFrame implements InterfazCalc
      */
     public VistaCalculadora() {
         initComponents();
+        this.setLocationRelativeTo(null);
+        this.setSize(300, 300);
     }
 
     /**

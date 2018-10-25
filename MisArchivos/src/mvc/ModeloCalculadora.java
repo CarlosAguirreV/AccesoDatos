@@ -36,7 +36,7 @@ public class ModeloCalculadora {
     }
     
     public double resta() {
-        return op1 + op2;
+        return op1 - op2;
     }
     
     public double producto(){
