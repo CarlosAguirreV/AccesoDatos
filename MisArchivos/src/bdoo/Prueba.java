@@ -4,7 +4,9 @@ import org.neodatis.odb.ODB;
 import org.neodatis.odb.ODBFactory;
 
 public class Prueba {
-    public Prueba(){}
+    public Prueba(){
+        this.almacenarObjetos();
+    }
     
     public void almacenarObjetos(){
         Pais pais1 = new Pais(0, "España");
@@ -12,7 +14,7 @@ public class Prueba {
         Pais pais3 = new Pais(2, "Francia");
         Pais pais4 = new Pais(3, "Letonia");
         
-        Jugador j1 = new Jugador(pais1, "Jaime", "Futbol", 25);
+        Jugador j1 = new Jugador(pais1,"Jaime", "Futbol", 25);        
         Jugador j2 = new Jugador(pais1, "Elena", "Futbol", 22);
         Jugador j3 = new Jugador(pais3, "Diego", "Baloncesto", 30);
         Jugador j4 = new Jugador(pais4, "Palomo", "Hockey", 19);
@@ -30,6 +32,8 @@ public class Prueba {
         odb.store(j4);
         odb.store(j5);
         odb.store(j6);
+        
+        odb.close();
     }
     
     public static void main(String[] args) {

@@ -7,6 +7,10 @@ public class Jugador {
     private String deporte;
     private int edad;
 
+    public Jugador() {
+    }
+
+    
     public Jugador(Pais pais, String nombre, String deporte, int edad) {
         this.pais = pais;
         this.nombre = nombre;

@@ -5,6 +5,10 @@ public class Pais {
     private int id;
     private String nombrePais;
 
+    public Pais() {
+    }
+
+    
     public Pais(int id, String nombrePais) {
         this.id = id;
         this.nombrePais = nombrePais;
