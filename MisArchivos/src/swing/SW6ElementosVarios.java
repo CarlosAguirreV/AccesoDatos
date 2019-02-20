@@ -74,7 +74,7 @@ public class SW6ElementosVarios extends JFrame {
         this.grupoRadioBotones.add(rdbPrueba1);
         this.grupoRadioBotones.add(rdbPrueba2);
         this.grupoRadioBotones.add(rdbPrueba3);
-//        this.rdbPrueba1.setSelected(true);
+        this.rdbPrueba1.setSelected(true);
 
         // Paneles
         this.getContentPane().add(this.pnlGlobal);
