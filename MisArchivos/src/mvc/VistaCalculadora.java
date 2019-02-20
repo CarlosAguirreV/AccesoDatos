@@ -57,6 +57,11 @@ public class VistaCalculadora extends javax.swing.JFrame implements InterfazCalc
         getContentPane().add(jLabel3);
 
         jComboBoxOperacion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "+", "-", "*", "/" }));
+        jComboBoxOperacion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBoxOperacionActionPerformed(evt);
+            }
+        });
         getContentPane().add(jComboBoxOperacion);
 
         jLabel4.setText("Resultado");
@@ -95,6 +100,10 @@ public class VistaCalculadora extends javax.swing.JFrame implements InterfazCalc
         // Llama al controlador para que haga las operaciones.
         controlador.operar();
     }//GEN-LAST:event_jButtonCalcularActionPerformed
+
+    private void jComboBoxOperacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxOperacionActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBoxOperacionActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
